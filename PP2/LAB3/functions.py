@@ -123,3 +123,11 @@ print("\n\nRecursion Example Results")
 tri_recursion(6)
 
 
+def func(array):
+  array = [1, 2, 4, 4]
+  array = [1, 2, 3, 4]
+  array = [4, 1, 4]
+  if(array[0] == 4 or array[1] == 4 or array[3] == 4):
+    return True
+  else:
+    return false
