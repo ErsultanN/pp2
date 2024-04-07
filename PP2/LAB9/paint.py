@@ -1,5 +1,7 @@
 # press "d" chnage cursor position to create a rectangle
 # press "f" chnage cursor position to create a circle
+# press "a" chnage cursor position to create a equilateral triangle
+# press "s" chnage cursor position to create a rhombus
 # Pressing r, g, or b keys will make the trail turn red, green, and blue respectively.
 # Pressing the left mouse button will cause the trail to become thicker.
 # Pressing the right mouse button will cause the trail to become thinner.
