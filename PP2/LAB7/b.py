@@ -2,7 +2,7 @@ import pygame
 import datetime
 
 pygame.init()
-screen = pygame.display.set_mode((500, 400))
+screen = pygame.display.set_mode((500, 400), pygame.RESIZABLE)
 running = True
 
 clock = pygame.time.Clock()

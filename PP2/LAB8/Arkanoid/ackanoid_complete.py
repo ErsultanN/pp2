@@ -34,6 +34,8 @@ game_score_rect.center = (210, 20)
 #Catching sound
 collision_sound = pygame.mixer.Sound('catch.mp3')
 
+
+
 def detect_collision(dx, dy, ball, rect):
     if dx > 0:
         delta_x = ball.right - rect.left
@@ -107,6 +109,7 @@ while not done:
 
     if hitIndex != -1:
         hitRect = block_list.pop(hitIndex)
+        print(hitIndex)
         hitColor = color_list.pop(hitIndex)
         dx, dy = detect_collision(dx, dy, ball, hitRect)
         game_score += 1

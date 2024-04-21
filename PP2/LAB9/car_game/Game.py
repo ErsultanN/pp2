@@ -131,5 +131,16 @@ while True:
         pygame.quit()
         sys.exit()
 
+
+
+        # P1.image = pygame.transform.rotate(P1.image, 90)
+        # P1.rect = P1.image.get_rect(center=P1.rect.center)
+
     pygame.display.update()
     FramePerSec.tick(FPS)
+
+start_font = pygame.font.SysFont("Verdana", 40)
+start_text = start_font.render("РЕЙСЕР", True, BLACK)
+DISPLAYSURF.blit(start_text, (150, 250))
+pygame.display.update()
+time.sleep(2)  # Подождите 2 секунды перед началом игры

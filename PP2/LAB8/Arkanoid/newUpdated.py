@@ -1,10 +1,13 @@
+
+
 import pygame
 import random
 
 pygame.init()
 
 W, H = 1200, 800
-FPS = 60
+FPS = 50
+
 
 screen = pygame.display.set_mode((W, H), pygame.RESIZABLE)
 clock = pygame.time.Clock()
@@ -12,7 +15,7 @@ done = False
 bg = (0, 0, 0)
 
 # Paddle
-paddleW = 150
+paddleW = 250
 paddleH = 25
 paddleSpeed = 20
 paddle = pygame.Rect(W // 2 - paddleW // 2, H - paddleH - 30, paddleW, paddleH)
